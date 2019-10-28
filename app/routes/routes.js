@@ -8,5 +8,4 @@ let preprocessingRoutes = require('./preprocessing');
 appRouter.use(healthcheckRoutes);
 appRouter.use('/preprocessings', preprocessingRoutes);
 
-console.log(appRouter, 'app');
 module.exports = appRouter;
