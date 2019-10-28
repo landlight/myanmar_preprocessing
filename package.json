@@ -1,0 +1,33 @@
+{
+  "name": "myanmar_preprocessing",
+  "version": "1.0.0",
+  "description": "preprocessings for myanmar language",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landlight/myanmar_preprocessing.git"
+  },
+  "keywords": [
+    "myanmar",
+    "text_processing"
+  ],
+  "author": "Chit Khine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landlight/myanmar_preprocessing/issues"
+  },
+  "homepage": "https://github.com/landlight/myanmar_preprocessing#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0"
+  }
+}
